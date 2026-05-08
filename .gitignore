@@ -1,0 +1,49 @@
+# Docker images
+*.tar
+*.tar.gz
+3x-ui-*.tar
+
+# MikroTik exports
+*.rsc
+*.backup
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# SSL certificates (don't commit private keys!)
+*.pem
+*.key
+*.crt
+*.csr
+certificates/
+
+# Personal configurations
+config-personal.md
+my-*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+test/
+test-*.sh
